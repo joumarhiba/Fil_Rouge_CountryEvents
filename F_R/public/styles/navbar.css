@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,600&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.logo {
+  width: 25%;
+  height: auto;
+}
+
+.nav {
+  background-color: #993D69;
+  padding: .7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 3%;
+  width: 100%;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 27px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #F7FAFB;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  font-weight: 500;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.create {
+  background-color: transparent;
+  color: #F7FAFB;
+  border: 1px solid #F7FAFB;
+  padding: .94em;
+}
+
+.create:hover {
+  background-color: #F7FAFB;
+  color: #993D69;
+  font-weight: 500;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+@media screen and (max-width: 840px) {
+  .nav-item, .create {
+    font-size: .9em;
+  }
+  .create {
+    padding: .87em;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .nav-item, .create {
+    font-size: .72em;
+  }
+  .create {
+    padding: .8em;
+  }
+}
+
+@media screen and (max-width: 709px) {
+  ul li {
+    margin-right: 15px;
+  }
+  .nav-item, .create {
+    width: 100%;
+    font-size: .72em;
+  }
+  .create {
+    padding: .8em;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  ul li {
+    margin-right: 6px;
+  }
+  .nav-item, .create {
+    width: 100%;
+    font-size: .7em;
+  }
+  .create {
+    padding: .74em;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  ul li {
+    margin-right: 3px;
+  }
+  .nav-item, .create {
+    width: 100%;
+    font-size: .6em;
+  }
+  .create {
+    padding: .7em;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .logo {
+    width: 21%;
+  }
+  .nav-item, .create {
+    font-size: .5em;
+  }
+  .create {
+    padding: .43em;
+  }
+}
+
+@media screen and (max-width: 507px) {
+  .logo {
+    width: 18%;
+  }
+  .nav-item, .create {
+    width: 100%;
+    font-size: .5em;
+  }
+  .create {
+    padding: 0.2em;
+    margin-bottom: 12%;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .logo {
+    width: 29%;
+  }
+  ul li {
+    margin-right: 10px;
+  }
+  .create {
+    padding: 0.56em;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */
